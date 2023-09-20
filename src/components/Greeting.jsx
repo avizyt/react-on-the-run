@@ -5,8 +5,8 @@ const welcome = {
 
 const Greeting = () => {
     return (
-        <div>
-            <h1 className='text-xl'>
+        <div className=''>
+            <h1 className='text-xl text-orange-500'>
                 {welcome.greeting} {welcome.title}
             </h1>
             <label htmlFor='search' className='text-lg font-bold'>
