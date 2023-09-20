@@ -1,4 +1,5 @@
 # React on the Run
+![image](https://github.com/avizyt/react-on-the-run/assets/71291040/3c378b7d-67ea-4742-9efa-ffde43c11efe)
 
 ## Getting Started
 
