@@ -31,6 +31,7 @@ export default {
                     yellow: "#FFCC70",
                     blue: "#8ECDDD",
                     matt: "#FFFADD",
+                    lorange: "#FF7F50",
                 },
             },
             boxShadow: {

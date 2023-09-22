@@ -1,4 +1,5 @@
-import { Sidebar } from "./components";
+import { Listify } from "./components";
+import { language } from "./constants";
 
 const App = () => {
     return (
@@ -9,8 +10,8 @@ const App = () => {
                     Learn the best framework for your web application.
                 </p>
             </div>
-            <div>
-                <Sidebar />
+            <div className='card'>
+                <Listify language={language} />
             </div>
         </div>
     );
