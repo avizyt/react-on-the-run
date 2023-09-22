@@ -1,3 +1,5 @@
 import Greeting from "./Greeting";
+import Listify from "./Listify";
+import Sidebar from "./Sidebar";
 
-export { Greeting };
+export { Greeting, Listify, Sidebar };
