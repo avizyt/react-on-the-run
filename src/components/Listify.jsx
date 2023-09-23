@@ -1,14 +1,15 @@
-const Listify = ({ language }) => {
+const Listify = (item) => {
     return (
         <div>
-            <h1>List of Programming Language</h1>
             <ul>
-                {language.map((lang) => (
-                    <li key={lang.objectID}>
-                        <a href={lang.url}>{lang.title}</a> by {lang.author} |{" "}
-                        {lang.points} points | {lang.num_comments} comments
-                    </li>
-                ))}
+                <li key={item.objectID}>
+                    <span>
+                        <a href={item.url}>{item.title}</a>
+                    </span>
+                    <span>{item.author}</span>
+                    <span>{item.num_comments}</span>
+                    <span>{item.points}</span>
+                </li>
             </ul>
         </div>
     );
