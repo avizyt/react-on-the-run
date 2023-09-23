@@ -12,10 +12,10 @@ const AsynCounter = () => {
     hover:bg-white  hover:text-white hover:ring-slate-300 mx-8 shadow-lg shadow-indigo-300/50`;
 
     const handleIncrease = () => {
-        setTimeout(() => setCount(count + 1), 1000);
+        setTimeout(() => setCount((state) => state + 1), 1000);
     };
     const handleDecrease = () => {
-        setTimeout(() => setCount(count - 1), 1000);
+        setTimeout(() => setCount((state) => state - 1), 1000);
     };
     return (
         <div className='card m-4'>
